@@ -11,15 +11,14 @@ namespace ClassesHaydenCameron2425
         static void Main(string[] args)
         {
             
-            PlayerAttributes Sekol = new PlayerAttributes();
-            
+            PlayerAttributes Ninja = new PlayerAttributes("Ninja", "I am Ninja", 100);
+            PlayerAttributes Kodi = new PlayerAttributes("Koding Konquerer", "I am Kodi", 200);
+            PlayerAttributes Culp = new PlayerAttributes("Culperate", "I am Culp", 100);
 
-            Sekol.Name = "Ninja";
-            Sekol.Description = "I am Mr. Sekol";
-            Sekol.Strength = 1000;
-            Console.WriteLine(Sekol.Name);
-            Console.WriteLine(Sekol.Description);
-            Console.WriteLine(Sekol.Strength);
+
+            Console.WriteLine(Ninja.Name);
+            Console.WriteLine(Ninja.Description);
+            Console.WriteLine(Ninja.Strength);
 
 
 

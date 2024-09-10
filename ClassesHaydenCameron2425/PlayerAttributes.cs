@@ -16,8 +16,8 @@ namespace ClassesHaydenCameron2425
         public int Strength {  get; set; }
 
         //Constructor 
-
-        public void teacher(string name, string description, int strength)
+        // Constructor (no return type, just the class name)
+        public PlayerAttributes(string name, string description, int strength)
 
         {
             Name = name;
